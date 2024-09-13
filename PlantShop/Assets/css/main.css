@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Montserat;
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-weight: 800;
+  }
+  @font-face {
+    font-family: Montserat;
+    src: url("../fonts/Montserrat-Regular.ttf");
+    font-weight: 400;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserat;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .container {
+    max-width: 1165px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    margin-top: 30px;
+  }
+  .header__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__elems {
+    display: flex;
+    align-items: center;
+  }
+  .header__icons {
+    display: flex;
+    align-items: center;
+  }
+  .header__btns {
+    display: flex;
+    align-items: center;
+  }
+  .header__search {
+    margin-right: 40px;
+  }
+  
+  .btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #156963;
+    padding: 8px 33px;
+  }
+  .btn_w {
+    color: #156963;
+    background-color: #fff;
+  }
+  
+  .main__pic {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -100;
+    background: url("../img/bg-main.jpg") no-repeat center center/cover;
+    height: 100vh;
+    width: 100vh;
+  }
+  .main__wrap {
+    display: flex;
+  }
+  .main__right {
+    margin-left: 120vh;
+    margin-top: 110px;
+  }
+  .main__block {
+    text-align: left;
+    margin-right: 56px;
+  }
+  .main__title {
+    font-weight: 500;
+    font-size: 68px;
+    margin-bottom: 24px;
+    color: #156963;
+  }
+  .main__text {
+    text-align: left;
+    font-weight: 400;
+    width: 493px;
+    align-items: left;
+  }
+  .main__prev-next {
+    margin-top: 110px;
+    display: flex;
+    font-size: 32px;
+    height: 160px;
+  }
+  .main__prev {
+    margin-right: 102px;
+    display: flex;
+    flex-direction: column;
+    padding: 39px 49px;
+  }
+  .main__prev-text {
+    color: #156963;
+  }
+  .main__next {
+    display: flex;
+    flex-direction: column;
+    background-color: #156963;
+    padding: 39px 49px;
+  }
+  .main__next-next {
+    margin-top: 110px;
+    display: flex;
+  }
+  .main__next-text {
+    color: white;
+  }
+  
+  .advantages {
+    margin-left: 56px;
+    margin-right: 56px;
+    margin-top: 142px;
+    height: 155px;
+  }
+  
+  .SUBMIT__btns {
+    font-size: 8px;
+  }
