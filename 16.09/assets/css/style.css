@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.intro {
+  background: url("../img/HERO.png") no-repeat center center/cover;
+  padding: 208px 0 400px 0;
+}
+.intro__title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 900;
+  max-width: 585px;
+}
+
+.dog {
+  margin-top: -80px;
+}
+.dog__wrap {
+  position: relative;
+  background-color: #484C9A;
+  padding: 100px 87px 0 87px;
+  border-radius: 40px;
+}
+.dog__dots {
+  position: absolute;
+  top: -110px;
+  right: -70px;
+}
+.dog__subtitle {
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.dog-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.dog__title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  min-width: 583px;
+  margin-bottom: 36px;
+}
+.dog__text {
+  color: #F5F5F5;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 54px;
+}
