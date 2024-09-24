@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Italiana;
+}
+
+.header{
+    background: url(../img/BG_first_slide.jpg) no-repeat center center/ cover;
+    &__menu{
+        a{
+            text-decoration: none;
+            
+        }
+    }
+}
